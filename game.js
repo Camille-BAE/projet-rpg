@@ -19,6 +19,10 @@ export default class Game {
     this.players.push(fighter, assassin, paladin, monk, berzerker, wizard, pirate);
   }
 
+  newTurn = () => {
+    this.turnLeft -= 1;
+  }
+
 }
 
 
