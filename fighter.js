@@ -1,11 +1,6 @@
-//import Character from './character.js'
+import Character from './character.js'
+// extends sert à donner l'héritage de Character à ton fichier.js
+export default class Fighter extends Character{
 
-//export default 
-class Fighter extends Character{
 
-  constructor(name,hp=12,dmg=4,mana=40,status="player") {
-    super(hp,dmg,mana,status);
-    this.name = name;
-    this.dimdeg=false;
-  }
 }

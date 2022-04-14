@@ -1,5 +1,4 @@
-//export default  
-class Character{
+export default  class Character{
   constructor(hp,dmg,mana,status){
     this.hp=hp;
     this.mana=mana;
