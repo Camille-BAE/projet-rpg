@@ -3,6 +3,8 @@ import Paladin from './paladin.js';
 import Monk from './monk.js';
 import Berzerker from './berzerker.js';
 import Assassin from './assassin.js';
+import Wizard from './wizard.js';
+import Archer from './archer.js';
 
 export default class Game {
   constructor (turnLeft = 10, players) {
@@ -16,7 +18,9 @@ export default class Game {
     this.monk = new Monk ("Moana");
     this.berzerker = new Berzerker ("Draven");
     this.assassin = new Assassin ("Carl");
-    this.players.push(fighter, assassin, paladin, monk, berzerker, wizard, pirate);
+    this.wizard = new Wizard ("Mélusine");
+    this.archer = new Archer ("Legolas");
+    this.players.push(fighter, assassin, paladin, monk, berzerker, wizard, archer);
   }
 
   newTurn = () => {
@@ -24,5 +28,4 @@ export default class Game {
   }
 
 }
-
 
