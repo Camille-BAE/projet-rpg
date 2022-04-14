@@ -1,5 +1,5 @@
-export default class Turn{
+export default class Turn extends Game{
   startTurn = () => {
-    return Turn.new
+    
   }
 }
