@@ -1,7 +1,7 @@
 import Game from './game.js';
 
-startGame = () => {
+startGame = (game) => {
   game = new Game ();
   game.initialize ();
-  
+
 }
