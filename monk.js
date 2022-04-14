@@ -5,6 +5,10 @@ export default class Monk extends Character{
     super(hp,dmg,mana,status); 
     this.name = name;  
     this.immune = false;
-}
+  }
+
+  heal () {
+    
+  }
 
 }

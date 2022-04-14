@@ -5,6 +5,10 @@ export default class Paladin extends Character{
     super(hp,dmg,mana,status);
     this.name = name;  
     this.immune = false;
-}
+  }
+
+  healingLighting () {
+
+  }
 
 }

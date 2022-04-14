@@ -5,6 +5,10 @@ export default class Fighter extends Character{
     super(hp,dmg,mana,status); // la clé "super" veut dire que les propriétés viennent de ton parent qui est Character
     this.name = name;  
     this.immune = false;
-}
+  }
+
+  darkVision () {
+
+  }
 
 }

@@ -5,6 +5,10 @@ export default class Berzerker extends Character{
     super(hp,dmg,mana,status);
     this.name = name;  
     this.immune = false;
-}
+  }
+
+  rage () {
+    
+  }
 
 }
