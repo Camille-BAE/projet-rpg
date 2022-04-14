@@ -1,4 +1,7 @@
 import Game from './game.js';
 
-let startGame = new Game ();
-
+startGame = () => {
+  game = new Game ();
+  game.initialize ();
+  
+}
