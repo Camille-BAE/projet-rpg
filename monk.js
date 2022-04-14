@@ -8,15 +8,15 @@ export default class Monk extends Character{
     this.status = "playing";
   }
 
-  heal () {
+  heal = () => {
     
   }
 
-  takeDamage () {
+  takeDamage = () => {
 
   }
 
-  dealDamage () {
+  dealDamage = () => {
 
   }
 

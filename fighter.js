@@ -8,15 +8,15 @@ export default class Fighter extends Character{
     this.status = "playing";
   }
 
-  darkVision () {
+  darkVision = () => {
 
   }
 
-  takeDamage () {
+  takeDamage = () => {
 
   }
 
-  dealDamage () {
+  dealDamage = () => {
 
   }
 

@@ -8,15 +8,15 @@ export default class Assassin extends Character{
     this.status = "playing";
   }
 
-  shadowHit () {
+  shadowHit = () => {
     
   }
 
-  takeDamage () {
+  takeDamage = () => {
 
   }
 
-  dealDamage () {
+  dealDamage = () => {
 
   }
 

@@ -8,15 +8,15 @@ export default class Paladin extends Character{
     this.status = "playing";
   }
 
-  healingLighting () {
+  healingLighting = () => {
 
   }
 
-  takeDamage () {
+  takeDamage = () => {
 
   }
 
-  dealDamage () {
+  dealDamage = () => {
 
   }
 

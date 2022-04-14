@@ -8,15 +8,15 @@ export default class Berzerker extends Character{
     this.status = "playing";
   }
 
-  rage () {
+  rage = () => {
     
   }
 
-  takeDamage () {
+  takeDamage = () => {
 
   }
 
-  dealDamage () {
+  dealDamage = () => {
 
   }
 
